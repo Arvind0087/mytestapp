@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  node-app:
+    image: arvind090/node-cicd-app:latest
+    container_name: node-app
+    ports:
+      - "8000:8000"
+    restart: always
