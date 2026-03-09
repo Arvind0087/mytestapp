@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   node-app:
     image: arvind090/node-cicd-app:latest
