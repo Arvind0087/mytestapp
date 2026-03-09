@@ -1,7 +1,7 @@
 services:
-  node-app:
+  my-app:
     image: arvind090/node-cicd-app:latest
-    container_name: node-app
+    container_name: my-app
     ports:
       - "8000:8000"
     restart: always
