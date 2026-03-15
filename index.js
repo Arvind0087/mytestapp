@@ -5,7 +5,7 @@ const PORT = 8000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "CI/CD Node App Running on Port 8001 🚀"
+    message: "CI/CD Node App Running on Port 8000 🚀"
   });
 });
 
