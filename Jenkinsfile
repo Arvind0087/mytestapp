@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "arvind090/node-cicd-app"
+        DOCKER_IMAGE = "arvind090/node-cicd-app:latest"
     }
 
     stages {
